@@ -45,11 +45,12 @@ A Guide to Advanced Features
 
 ---
 
-<!--
-This slide uses a background image.
-The "blur" and "brightness" filters enhance text readability.
+<!-- 
+This slide uses the ![bg]() syntax for the background image.
+This is a more reliable method than the HTML comment directive.
+Filters like brightness and blur can be added.
 -->
-<!--_backgroundImage: url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800')-->
+![bg brightness:0.8](https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800)
 <!--_color: white-->
 <!--_header: '' -->
 <!--_footer: '' -->
