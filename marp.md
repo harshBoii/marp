@@ -20,9 +20,7 @@ section {
   color: var(--color-foreground);
   font-family: var(--font-main);
   padding: 40px;
-background-image: url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800');
 }
-    
 
 h1, h2 {
   font-family: var(--font-heading);
@@ -63,7 +61,7 @@ Filters like brightness and blur can be added.
 
 Directives can apply filters to make text stand out.
 
-`<!--_backgroundImage: url('...')-->`
+`![bg](https://images.unsplash.com/your-image.jpg)`
 
 </div>
 
@@ -98,13 +96,13 @@ Marp supports LaTeX for rendering beautiful math equations. This is perfect for 
 
 The complexity of an algorithm is often expressed using Big O notation.
 
-- **Constant Time:** \(O(1)\)
-- **Logarithmic Time:** \(O(\log n)\)
-- **Linear Time:** \(O(n)\)
-- **Quadratic Time:** \(O(n^2)\)
+- **Constant Time:** $O(1)$
+- **Logarithmic Time:** $O(\log n)$
+- **Linear Time:** $O(n)$
+- **Quadratic Time:** $O(n^2)$
 
 A more complex equation like the one for a Gaussian function would be:
-\[ f(x) = a \cdot e^{-\frac{(x-b)^2}{2c^2}} \]
+$$ f(x) = a \cdot e^{-\frac{(x-b)^2}{2c^2}} $$
 
 ---
 
@@ -119,5 +117,3 @@ This presentation covered:
 - Background Images
 - Per-Slide Styling
 - Mathematical Equations
-
-Any questions?
