@@ -20,7 +20,9 @@ section {
   color: var(--color-foreground);
   font-family: var(--font-main);
   padding: 40px;
+background-image: url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800');
 }
+    
 
 h1, h2 {
   font-family: var(--font-heading);
